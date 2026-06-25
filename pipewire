@@ -1,0 +1,5 @@
+idle-timeout = 0
+context.exec = [
+	{ path = "pipewire-pulse", args = ["--max-volume=1.0"] }
+]
+volume.linear = true
