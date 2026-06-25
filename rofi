@@ -1,0 +1,14 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+configuration {
+    modi: "drun,run";
+    show-icons: false;
+    font: "Cousine Nerd Font Mono 12";
+}
+
+window {
+    border: 3px;
+    border-color: @selected-normal-background;
+    border-radius: 0px;
+    background-color: @background;
+}
